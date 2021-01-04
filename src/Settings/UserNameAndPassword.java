@@ -80,7 +80,7 @@ public class UserNameAndPassword {
 
     private String userName;
     private String password;
-   public static ArrayList<String> UserNameLists = new ArrayList<>();
+    public static ArrayList<String> UserNameLists = new ArrayList<>();
 
 
 

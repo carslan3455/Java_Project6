@@ -57,9 +57,11 @@ public class YourTest {
 
      */
 
+    UserNameAndPassword myUsername = new UserNameAndPassword();
+
     @Test
     public void testSetUsername1() {
-        UserNameAndPassword myUsername = new UserNameAndPassword();
+       // UserNameAndPassword myUsername = new UserNameAndPassword();
         String result = myUsername.setUsername("Jerre");
         String expected = "Username length should be more then 6";
 
@@ -68,7 +70,7 @@ public class YourTest {
     }
     @Test
     public void testSetUsername2() {
-        UserNameAndPassword myUsername = new UserNameAndPassword();
+      //  UserNameAndPassword myUsername = new UserNameAndPassword();
         String result = myUsername.setUsername("erremy3@ gmail.com");
         String expected = "Username should not contain space";
 
@@ -77,7 +79,7 @@ public class YourTest {
     }
     @Test
     public void testSetUsername3() {
-        UserNameAndPassword myUsername = new UserNameAndPassword();
+      //  UserNameAndPassword myUsername = new UserNameAndPassword();
         String result = myUsername.setUsername("Jerremy3gmail.com");
         String expected = "Username should contain @ symbol";
 
@@ -87,7 +89,7 @@ public class YourTest {
     @Test
     public  void testSetUsername4() {
 
-        UserNameAndPassword myUsername = new UserNameAndPassword();
+      //  UserNameAndPassword myUsername = new UserNameAndPassword();
         String  result = myUsername.setUsername("Jerry@hotmail.com");
         String expected = "Username should be unique";
 
@@ -97,7 +99,7 @@ public class YourTest {
     }
     @Test
     public void testSetUsername5() {
-        UserNameAndPassword myUsername = new UserNameAndPassword();
+     //   UserNameAndPassword myUsername = new UserNameAndPassword();
         String result = myUsername.setUsername("Micheil@gmail.com");
         String expected = "Micheil@gmail.com";
 

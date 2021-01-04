@@ -212,10 +212,10 @@ public class Items {
 
     public double customText(boolean boll, String str) {
 
-        if (boll == true && str.length() > 10)
+        if (boll == true && str.length() > 10)     // if (boll && str.length() > 10)
             price += 5;
 
-        else if (boll == true && str.length() <= 10) {
+        else if (boll==true && str.length() <= 10) {    // else if (boll) {
             price += 3;
         }
         return price;

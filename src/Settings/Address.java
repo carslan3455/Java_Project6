@@ -1,6 +1,5 @@
 package Settings;
 
-import javax.swing.*;
 import java.util.ArrayList;
 
 public class Address {
@@ -61,6 +60,7 @@ public class Address {
 
 
    public String Address1(String myAddress) {
+
         Address1 = myAddress;
 
         return Address1 ;
@@ -102,6 +102,7 @@ public class Address {
         if (!cityList.contains(myCity))
             return "We are not able to ship to your location";
         else City = myCity;
+
         return City;
 
     }
@@ -139,6 +140,7 @@ public class Address {
         if (myZipcode.length()!=5)
             return "Zip code length should be 5";
         else ZipCode=myZipcode;
+
         return ZipCode;
 
     }

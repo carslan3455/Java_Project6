@@ -21,7 +21,7 @@ public class UserSettings {
 
     /*
    Bütün variables lar  public
-   Stringler   username
+   Stringler     username
                  password
                  Address1
                  City
